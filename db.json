@@ -5,7 +5,7 @@
     "posts": [
         { 
           "id": 1,
-          "imageUrl": "/assets/image1",
+          "imageUrl": "/src/assets/image1.jpg",
           "alt": "imagem do post",
           "title": "Como Manter uma Vida Saudável",
           "description": "Descubra os passos iniciais para uma vida mais saudável. Mudar a alimentação, praticar exercícios físicos e beber mais água são fundamentais para alcançar o bem-estar. Este é o caminho para uma vida equilibrada e cheia de energia.",
@@ -13,7 +13,7 @@
         },
         { 
           "id": 2,
-          "imageUrl": "/assets/image2",
+          "imageUrl": "/src/assets/image2.jpg",
           "alt": "imagem do post",
           "title": "Dicas para uma Alimentação Balanceada",
           "description": "Explore maneiras de manter uma alimentação equilibrada e nutritiva. Descubra como escolher os alimentos certos para garantir a saúde e o bem-estar do seu corpo. Esteja preparado para uma jornada deliciosa e saudável.",
@@ -21,7 +21,7 @@
         },
         { 
           "id": 3,
-          "imageUrl": "/assets/image3",
+          "imageUrl": "/src/assets/image3.jpg",
           "alt": "imagem do post",
           "title": "Rotina de Exercícios para Iniciantes",
           "description": "Comece sua jornada de fitness com uma rotina de exercícios para iniciantes. Descubra movimentos simples que ajudarão a fortalecer seu corpo e melhorar sua saúde física. Seja ativo, seja saudável.",
@@ -29,7 +29,7 @@
         },
         { 
           "id": 4,
-          "imageUrl": "/assets/image4",
+          "imageUrl": "/src/assets/image4.jpg",
           "alt": "imagem do post",
           "title": "Benefícios da Meditação Diária",
           "description": "Explore os incríveis benefícios da meditação diária para a saúde mental e física. Aprenda a incorporar a meditação em sua rotina diária para encontrar paz interior e equilíbrio emocional.",
@@ -37,7 +37,7 @@
         },
         { 
           "id": 5,
-          "imageUrl": "/assets/image5",
+          "imageUrl": "/src/assets/image5.jpg",
           "alt": "imagem do post",
           "title": "Receitas Saudáveis para o Café da Manhã",
           "description": "Descubra receitas deliciosas e saudáveis para começar o dia com energia. De smoothies nutritivos a opções de café da manhã equilibradas, essas receitas vão transformar suas manhãs.",
@@ -45,7 +45,7 @@
         },
         { 
           "id": 6,
-          "imageUrl": "/assets/image6",
+          "imageUrl": "/src/assets/image6.jpg",
           "alt": "imagem do post",
           "title": "Dicas para uma Boa Noite de Sono",
           "description": "Aprenda práticas essenciais para garantir uma boa noite de sono. Desde criar um ambiente propício até estabelecer uma rotina relaxante, essas dicas ajudarão você a ter noites tranquilas.",
@@ -53,7 +53,7 @@
         },
         { 
           "id": 7,
-          "imageUrl": "/assets/image7",
+          "imageUrl": "/src/assets/image7.jpg",
           "alt": "imagem do post",
           "title": "Exercícios para Fortalecimento Muscular",
           "description": "Descubra uma série de exercícios eficazes para fortalecer os músculos. Seja em casa ou na academia, esses movimentos ajudarão a desenvolver uma base sólida de força física.",
@@ -61,7 +61,7 @@
         },
         { 
           "id": 8,
-          "imageUrl": "/assets/image8",
+          "imageUrl": "/src/assets/image8.jpg",
           "alt": "imagem do post",
           "title": "A Importância da Hidratação",
           "description": "Entenda por que a hidratação é crucial para a saúde. Descubra os benefícios de beber água suficiente diariamente e aprenda dicas para manter-se bem hidratado ao longo do dia.",

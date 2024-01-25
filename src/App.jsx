@@ -1,4 +1,5 @@
 // import { useState } from 'react'
+import PostList from './components/Post'
 
 import './App.css'
 
@@ -7,7 +8,7 @@ function App() {
 
   return (
     <>
-      <h1>Hello Word</h1>
+      <PostList />
     </>
   )
 }
