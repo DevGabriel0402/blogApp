@@ -11,27 +11,99 @@ export const Container = styled.div`
     padding-inline: 10%;
     padding-block: 2%;
 
-h2{
-    text-align: center;
-    margin-bottom: 25px;
-}
+
+    .header{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-bottom: 25px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #00000020;
+
+    }
+
+    button{
+        
+        width: 150px;
+        height: 40px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+
+    }
+    h2{
+
+        text-align: center;
+
+    }
+
+    .create-post-form{
+        position: absolute;
+        z-index: 10;
+        display: flex;
+        top: 300px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .form{
+        width: 600px;
+        height: auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-start;
+        background-color: #00000070;
+        backdrop-filter: blur(5px);
+        padding: 20px;
+        gap: 10px;
+        border: 4px solid #ffffff80;
+        border-radius: 10px;
+
+    }
+
+    input{
+        font-size: 18px;
+        width: 100%;
+        margin-bottom: 5px;
+        height: 50px;
+        padding: 10px;
+        border: 1px solid transparent;
+        border-radius: 10px;
+
+    }
+
+    textarea{
+        font-size: 18px;
+        width: 100%;
+        height: 160px;
+        border: 1px solid transparent;
+        padding: 10px;
+        border-radius: 10px;
+
+
+
+    }
 
 
 `
 export const PostDescription = styled.div`
  
    
-      display: grid;
+        display: grid;
         grid-template-columns: repeat(4, 1fr);
-      gap: 35px;
+        gap: 20px;
 
 
       .post{
         width: 300px;
         height: 350px;
-        box-shadow: 1px 0 5px 0px #00000010;
-        background-color: #f5f5f5;
-        border-radius: 10px 10px 10px 10px;
+        box-shadow: 2px 2px 5px 0px #00000010;
+        background-color: #fff;
+        border-radius: 20px;
+        margin: 5px;
 
   
         
@@ -40,7 +112,9 @@ export const PostDescription = styled.div`
       img{
         width: 300px;
         height: 175px;
-        border-radius: 10px 10px 0px 0px;
+        border-radius: 20px 20px 0px 0px;
+        object-fit: cover;
+        animation: all 0.5s ease;
 
 
       }
